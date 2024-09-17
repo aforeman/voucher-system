@@ -15,6 +15,10 @@ const VoucherModalStyled = styled.div`
 	min-height: 598px;
 	background-color: #15171c;
 	border-radius: 12px;
+
+	@media screen and (max-width: 1024px) {
+		width: 100%;
+	}
 `;
 
 const TitleSection = styled.div`
@@ -53,6 +57,10 @@ const VoucherCodeEntry = styled.div`
 		border: 0;
 		font-size: 16px;
 		color: #50cd89;
+
+		@media screen and (max-width: 1024px) {
+			min-width: calc(100% - 140px);
+		}
 	}
 	> button {
 		float: right;
